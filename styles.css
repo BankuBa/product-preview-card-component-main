@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Fraunces", serif;
+}
+
+#box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+#center-box {
+  max-width: 505px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: white;
+}
+
+#box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#box3 {
+}
+
+#image {
+  width: 100%;
+  height: 100%;
+}
+
+#box4 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text0 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+  font-size: 11px;
+  color: hsl(228, 12%, 48%);
+}
+
+#text1 {
+  width: 80%;
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+#text2 {
+  color: hsl(228, 12%, 48%);
+  font-size: small;
+  padding: 1rem 0;
+}
+
+#button {
+  padding: 0.6rem;
+  width: 100%;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+}
+
+#button:hover {
+  background-color: hsl(158, 23%, 21%);
+  cursor: pointer;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(158, 36%, 37%);
+}
+
+#discount {
+  text-decoration: line-through;
+  font-size: x-small;
+  color: hsl(228, 12%, 48%);
+}
